@@ -21,7 +21,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: '8.3'
 
       - name: Check if composer.json exists
         id: check_files
@@ -57,4 +57,4 @@ jobs:
           app-name: 'smithaapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7814BC4579864A99B4E0D58AF616F8D5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_524ACA443F1044DE902361005A77CCA3 }}
